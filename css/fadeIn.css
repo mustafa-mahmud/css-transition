@@ -8,5 +8,14 @@ and open the template in the editor.
     Author     : MITHU
 */
 .myClass{
-    
+    width: 500px;
+    height: 300px;
+    transition: all 0.3s ease;
+    opacity: 0.5;
+    background-color: gray;
 }
+.myClass:hover{
+    opacity: 1;
+    background-color: blue;
+}
+
